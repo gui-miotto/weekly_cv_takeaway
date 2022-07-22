@@ -31,9 +31,12 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        <div class="post-meta">
+          <a href = {{ post.link }}> Paper PDF </a>
+        </div>
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
       </li>
       {%- endfor -%}
     </ul>
