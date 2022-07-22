@@ -5,12 +5,12 @@ date:   2022-07-21 21:24:36 +0200
 categories: jekyll update
 link: https://arxiv.org/abs/2109.08203
 ---
-### Context
+#### Context
 
 - It is a common practice in the machine learning community to report results from a single run (a single
 random seed). This many compromise the statistical validity of the presented results.
 
-### Takeaways
+#### Takeaways
 
 - The random seed has an important influence on the final accuracy of computer vision models.
 
@@ -20,5 +20,5 @@ studied benchmarks. But the gap may be even higher if more seeds were evaluated.
 - Dependending on the benchmark, improvements greater than 0.5% on the current state-of-art method
 are generally considered relevant by the computer vision community.
 
-- It is recommended that studies evaluate many runs with different random seeds. The results should
-be published in terms of average accuracy, standard deviation, and minimum/maximum values.
+- It is recommended that studies evaluate many runs with different random seeds. The accuracy should
+be published in terms of average, standard deviation, and minimum/maximum values.
