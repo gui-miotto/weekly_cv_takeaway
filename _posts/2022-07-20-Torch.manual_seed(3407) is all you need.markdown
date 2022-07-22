@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Torch.manual_seed(3407) is all you need: On the influence of random seeds in deep learning architectures for computer vision"
-date:   2022-07-21 21:24:36 +0200
+date:   2022-07-22 12:00:00 +0200
 categories: jekyll update
 link: https://arxiv.org/abs/2109.08203
 ---

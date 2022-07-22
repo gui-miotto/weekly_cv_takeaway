@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The weekly Computer Vision takeaway
+title: The weekly computer vision takeaway
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Every week, I read a new computer vision related paper and write down what I
-  learned here. Just very brief posts focusing on the conclusions and takeaway
+  Every week, I read a new computer vision related paper and write down here
+  what I learned. Just very brief posts focusing on the findings and takeaway
   messages.
 baseurl: "/weekly_cv_takeaway" # the subpath of your site, e.g. /blog
 url: "https://gui-miotto.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
