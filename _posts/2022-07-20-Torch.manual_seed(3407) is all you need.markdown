@@ -5,6 +5,9 @@ date:   2022-07-22 12:00:00 +0200
 categories: jekyll update
 link: https://arxiv.org/abs/2109.08203
 ---
+
+<img src="{{site.baseurl}}/assets/img/2022-07-20-Torch.manual_seed(3407) is all you need.png" alt="drawing" width="400"/>
+
 #### Context
 
 - It is a common practice in the machine learning community to report results from a single run (a single

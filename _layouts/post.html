@@ -25,8 +25,10 @@ layout: default
         {% endfor %}
       {%- endif -%}</p>
   </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-meta">
+    <a href = {{ post.link }} target="_blank">Paper PDF</a>
+  </div>
+  <div class="post-content page-content" itemprop="articleBody">
     {{ content }}
   </div>
 
