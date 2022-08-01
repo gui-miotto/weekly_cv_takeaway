@@ -17,7 +17,7 @@ random seed). This many compromise the statistical validity of the presented res
 
 - The random seed has an important influence on the final accuracy of computer vision models.
 
-- The accuracy difference between a "bad seed" and a "good seed" was found to be around 1% on the
+- The accuracy difference between a "bad seed" and a "good seed" was around 1% on the
 studied benchmarks. But the gap may be even higher if more seeds were evaluated.
 
 - Dependending on the benchmark, improvements greater than 0.5% on the current state-of-art method
