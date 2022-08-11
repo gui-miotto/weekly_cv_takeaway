@@ -6,3 +6,21 @@
 {% endcomment %}
 
 <link rel="icon" type="image/svg" href="{{ "/assets/favicon.svg" | prepend: site.baseurl }}" />
+
+<!-- Open Graph Meta -->
+<meta content="{{ site.title }}" property="og:site_name">
+<meta content="{{ site.title }}" property="og:title">
+<meta content="website" property="og:type">
+<meta content="{{ site.description }}" property="og:description">
+<meta content="{{ site.url }}" property="og:url">
+<meta content="{{ site.url }}/assets/img/favicon.svg" property="og:image">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ site.social.twitter }}">
+<meta name="twitter:creator" content="@{{ site.social.twitter }}">
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:url" content="{{ site.url }}">
+<meta name="twitter:description" content="{{ site.description }}">
+<meta name="twitter:image:src" content="{{ site.url }}/assets/img/favicon.svg">
+
