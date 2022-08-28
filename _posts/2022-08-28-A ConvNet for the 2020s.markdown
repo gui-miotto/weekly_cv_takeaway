@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A ConvNet for the 2020s"
-date: 2022-08-18 00:00:00 +0200
+date: 2022-08-28 12:00:00 +0200
 categories: study convnet
 link: https://arxiv.org/abs/2201.03545
 ---
