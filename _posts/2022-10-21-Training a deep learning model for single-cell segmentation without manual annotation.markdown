@@ -23,7 +23,7 @@ link: https://pubmed.ncbi.nlm.nih.gov/34907213/
 - During training, the full microscopy image is divided into small patches centered at each cell nucleus. The patch is just big enough to display the entirety of a single cell. The objective of the network is to segment only that single cell.
 
 - The loss function can be expressed as the weighted sum of three costs:
-    - Overlapping segmentation of different cells. This makes sense. The cells are distributed in a monolayer, so there is indeed no overlapping.
+    - Overlapping segmentation of different cells. This makes sense. The cells are distributed in a monolayer, so indeed there is no overlapping.
     - Cell segmentation invading the background region. Again, the background segmentation is known a priori (via graph-cut).
     - Segmenting cells with a small area. This cost is especially required to avoid the trivial solution of having no cell segmented at all.
 
