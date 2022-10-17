@@ -6,7 +6,7 @@ categories: segmentation biology
 link: https://pubmed.ncbi.nlm.nih.gov/34907213/
 ---
 
-<img src="{{site.baseurl}}/assets/img/2022-10-21-Training a deep learning model for single-cell segmentation without manual annotation.png" alt="drawing" width="720"/>
+<img src="{{site.baseurl}}/assets/img/2022-09-21-Training a deep learning model for single-cell segmentation without manual annotation.png" alt="drawing" width="720"/>
 
 #### Takeaways
 
